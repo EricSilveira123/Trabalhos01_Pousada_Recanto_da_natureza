@@ -1,0 +1,128 @@
+body {
+    font: 18px/1.4 arial, sans-serif;
+    background-color: lightgray;
+    opacity: 0.90;
+    color: rgb(71, 70, 70);
+    text-align: center;
+}
+
+footer {
+    display: inline-block;
+    text-align: center;
+}
+
+article img {
+    text-align: center;
+    display: inline;
+}
+
+header h1 {
+    font: 40px sans-serif;
+}
+
+header {
+    text-align: center;
+    background: rgb(63, 133, 226);
+    color: rgb(255, 255, 255);
+}
+
+article ol {
+    text-rendering: optimizeSpeed;
+}
+
+nav ul {
+    background-color: rgb(63, 133, 226);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center
+}
+
+nav ul li {
+    display: inline
+}
+
+nav ul li a {
+    padding: 10px;
+    display: inline-block;
+    background-color: (63, 133, 226);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-bottom: 3px solid (63, 133, 226)
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: (63, 133, 226);
+    font-weight: bold;
+    border-bottom: 3px solid rgb(255, 255, 255)
+}
+
+.endereco {
+    background: rgb(63, 133, 226);
+    color: rgb(255, 255, 255);
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+}
+.informacoes li:hover {
+    color: red;
+}
+@media screen and (max-width: 480px) {
+    footer img#mapa {
+        display: none;
+    }
+    
+    body .destaque img#destaque {
+        display: none;
+    }
+}
+@media screen and (min-width: 480px) {
+    body .destaque img#pequena {
+        display: none;
+    }
+}
+nav ul {
+    background-color: rgb(63, 133, 226);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    padding: 10px;
+    display: inline-block;
+    background-color: rgb(63, 133, 226);
+    color: #333;
+    text-decoration: none;
+    border-bottom: 3px solid rgb(63, 133, 226);
+}
+#formulario input {
+    width: 500px;
+    height: 45px;
+}
+#formulario label {
+    float: left;
+}
+#formulario {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px transparent solid;
+}
+#formulario p {
+    float: right;
+}
+#formulario select {
+    float: right;
+}
